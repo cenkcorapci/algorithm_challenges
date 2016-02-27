@@ -15,10 +15,8 @@ def check(numbers_list, goal, depth, max_depth):
             r = goal - i
             if r == 0:
                 return True
-            elif r < 0:
-                continue
             elif r > 0:
-                check(numbers_list, r, depth + 1, max_depth)
+                return check(numbers_list, r, depth + 1, max_depth)
     return False
 
 
