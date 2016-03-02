@@ -1,5 +1,3 @@
-_end = '_end_'
-
 lines = int(raw_input().strip())
 trie = {}
 
@@ -34,6 +32,6 @@ def find(found, word, vocabulary):
 for i in xrange(0, lines):
     cmd = raw_input().split(" ")
     if cmd[0] == "add":
-        trie = add(trie, cmd[1].strip())
+        trie = add(trie, cmd[1].strip() + "$")
     elif cmd[0] == "find":
         print find(0, cmd[1].strip(), trie)
