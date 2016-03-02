@@ -23,3 +23,13 @@ for pos in xrange(0, size + 1):
         dot_product += a_map[pos] * b_map[pos]
 
 print dot_product
+'''
+input
+3 3
+0 5
+2 6
+5 5
+0 3
+1 5
+5 2
+'''
