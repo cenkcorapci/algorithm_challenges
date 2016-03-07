@@ -33,7 +33,7 @@ def isBSTUtil(node, mini, maxi):
     # Otherwise check the subtrees recursively
     # tightening the min or max constraint
     return (isBSTUtil(node.left, mini, node.data - 1) and
-            isBSTUtil(node.right, node.data + 1, max))
+            isBSTUtil(node.right, node.data + 1, maxi))
 
 
 # Driver program to test above function
