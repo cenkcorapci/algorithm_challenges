@@ -26,7 +26,7 @@ def isBSTUtil(node, mini, maxi):
     if node is None:
         return True
 
-    # False if thsi node violates min/max constraint
+    # False if this node violates min/max constraint
     if node.data < mini or node.data > maxi:
         return False
 
