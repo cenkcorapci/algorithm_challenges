@@ -6,6 +6,7 @@ class Word(object):
         self.string = string
         self.index = index
 
+
 # Create a DupArray object that contains an array
 # of Words
 def createDupArray(string, size):
@@ -17,6 +18,7 @@ def createDupArray(string, size):
         dupArray.append(Word(string[i], i))
 
     return dupArray
+
 
 # Given a list of words in wordArr[]
 def printAnagramsTogether(wordArr, size):
@@ -38,6 +40,7 @@ def printAnagramsTogether(wordArr, size):
     # struct to get the corresponding original word
     for word in dupArray:
         print wordArr[word.index],
+
 
 # Driver program
 wordArr = ["cat", "dog", "tac", "god", "act"]
