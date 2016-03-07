@@ -22,7 +22,7 @@ def createDupArray(string, size):
 def printAnagramsTogether(wordArr, size):
     # Step 1: Create a copy of all words present in
     # given wordArr.
-    # The copy will also have orignal indexes of words
+    # The copy will also have original indexes of words
     dupArray = createDupArray(wordArr, size)
 
     # Step 2: Iterate through all words in dupArray and sort
