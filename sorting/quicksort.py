@@ -11,5 +11,5 @@ def qsort(list):
         return qsort(less) + [pivot] + qsort(more)
 
 
-aset = set([randint(0, 10) for i in xrange(10)])
+aset = set([randint(0, 100) for i in xrange(20)])
 print(qsort(list(aset)))

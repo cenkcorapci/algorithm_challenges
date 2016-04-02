@@ -1,6 +1,6 @@
 from random import randint
 
-
+# not working!
 def qsort(list):
     if not list:
         return []
@@ -17,5 +17,5 @@ def qsort(list):
     return list
 
 
-a_set = set([randint(0, 10) for i in xrange(10)])
+a_set = set([randint(0, 100) for i in xrange(20)])
 print(qsort(list(a_set)))
