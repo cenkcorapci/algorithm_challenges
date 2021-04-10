@@ -47,4 +47,5 @@ def min_flips(order):
 
 
 for case in xrange(1, num_test_cases + 1):
-    print "Case #%d: %d" % (case, min_flips(raw_input().strip(" ")))
+    print
+    "Case #%d: %d" % (case, min_flips(raw_input().strip(" ")))
